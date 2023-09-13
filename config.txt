@@ -1,9 +1,9 @@
 set interfaces ethernet eth0 address '10.0.17.28/24'
 set interfaces ethernet eth0 description 'WAN'
-set interfaces ethernet eth0 hw-id '00:50:56:a1:ba:f5'
+set interfaces ethernet eth0 hw-id '[MAC_ADDRESS]'
 set interfaces ethernet eth1 address '10.0.5.2/24'
 set interfaces ethernet eth1 description 'LAN'
-set interfaces ethernet eth1 hw-id '00:50:56:a1:af:be'
+set interfaces ethernet eth1 hw-id '[MAC_ADDRESS]'
 set interfaces loopback lo
 set nat destination rule 15 description 'HTTP->web01'
 set nat destination rule 15 destination port '80'
