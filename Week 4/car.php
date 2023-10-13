@@ -1,7 +1,7 @@
 <?php
-$username="parker";
-$password="Ceq832*";
-$database="simple_php";
+$username="[ACCT_USER]";
+$password="[ACCT_PASSWD]";
+$database="[DB_NAME]";
 //Acquire the vehicle specs from the form POST
 $make=$_POST['make'];
 //Establish MySQL connection
